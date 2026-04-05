@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marketplace</title>
+    <link rel="icon" type="image/png" href="img/aba.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Marketplace</h1>
+
+      <input type="text" id="busca" placeholder="Buscar produtos..." />
+
+      <select id="filtro">
+        <option value="todos">Todas categorias</option>
+        <option value="aparelhos">Aparelhos</option>
+        <option value="acessorios">Acessórios</option>
+      </select>
+    </header>
+
+    <main>
+      <section id="produtos"></section>
+    </main>
+
+    <aside id="carrinho">
+      <h2>🧾 Carrinho</h2>
+      <ul id="lista-carrinho"></ul>
+      <p id="total">Total: R$ 0</p>
+      <button id="limpar">Limpar carrinho</button>
+    </aside>
+
+    <footer>
+      <p>Marketplace</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
