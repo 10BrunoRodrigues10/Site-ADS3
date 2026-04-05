@@ -1,3 +1,7 @@
+Integrantes do grupo:  
+Bruno dos Santos Rodrigues
+RA: 242976162
+
 # Sobre o Projeto
 
 Este projeto é um marketplace desenvolvido para simular uma loja de vendas. A aplicação permite exibir produtos, realizar buscas, filtrar e adicionar itens a um carrinho de compras.
